@@ -36,6 +36,20 @@ export const Footer = () => {
               <a href="https://www.pdd24.com/" className={styles.menuLink}>ПДД онлайн 2024</a>
             </li>
           </ul>
+          <ul className={styles.menuList}>
+            <li className={styles.menuItem}>
+              <p className={styles.menuTitle}>Книги</p>
+            </li>
+            <li className={styles.menuItem}>
+              <a href="https://xn----8sbfshmwb0aq0k.xn--p1ai/wp-content/uploads/literatura/pdd-rf-2023-v46.1.pdf" className={styles.menuLink}>Правила Дорожного Движения</a>
+            </li>
+            <li className={styles.menuItem}>
+              <a href="http://avtoplus28.ru/index_files/pdd_2024.pdf" className={styles.menuLink}>Правила движения на дорогах</a>
+            </li>
+            <li className={styles.menuItem}>
+              <a href="https://www.dvport.com/wp-content/uploads/2022/07/PDD.pdf" className={styles.menuLink}>Правила безопасности на дорогетзь</a>
+            </li>
+          </ul>
         </nav>
         <p className={styles.copyright}>Тренажер разработал Богданов Кирилл Юрьевич</p>
       </Container>

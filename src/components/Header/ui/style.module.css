@@ -1,0 +1,21 @@
+@import '@/styles/variables.css';
+
+.header {
+  flex: 0;
+  .headerInner {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menuList{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+  }
+  .menuLink{
+    text-transform: uppercase;
+    color: var(--clr-1);
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

@@ -16,7 +16,7 @@ export const Header = () => {
           <nav className={styles.menu}>
             <ul className={styles.menuList}>
               <li className={styles.menuItem}>
-                <a className={styles.menuLink}>Дипломная работа</a>
+                <a className={styles.menuLink}>Дипломный проект</a>
               </li>
             </ul>
           </nav>
